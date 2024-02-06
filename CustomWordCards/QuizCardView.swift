@@ -5,7 +5,9 @@ import SwiftData
 
 struct QuizCardView: View {
     @Environment(\.modelContext) var modelContext
-    @Query(filter: Word.sameAsCurrentPredicate()) private var words: [Word]
+    // 今天以前（包括今天）要複習的單字
+    // 依照字母升冪排列（在這裡效果是日期越小（類型為字串）越前面）
+    @Query(filter: Word.lessOrSameAsCurrentPredicate(), sort: \Word.nextTimeReview, order: .forward) private var words: [Word]
     
     let partOfSpeechArray = Word.partOfSpeechArray
     let reviewDayGap = Word.reviewDayGap
@@ -22,7 +24,7 @@ struct QuizCardView: View {
                 
                 ZStack {
                     if words.isEmpty {
-                        Text("今天沒有單字!")
+                        Text("今天沒有單字！")
                             .font(.title)
                     } else {
                         if isShowingAnswer {
@@ -117,9 +119,9 @@ struct QuizCardView: View {
             return
         }
         
-        guard let originalNextTimeReview = Date.stringToDate(word.nextTimeReview) else {fatalError("字串轉換Date失敗！")}
+        let current = Date()
         // 重設下次複習日期
-        word.nextTimeReview = Date.dateToString( originalNextTimeReview.addingTimeInterval( TimeInterval(reviewDayGap[reviewCount].day) ) )
+        word.nextTimeReview = Date.dateToString( current.addingTimeInterval( TimeInterval(reviewDayGap[reviewCount].day) ) )
         word.lastTimeReview = Date.dateToString(Date())
         
         // 成功複習次數加1
@@ -135,9 +137,10 @@ struct QuizCardView: View {
         // 成功複習次數歸0
         reviewCount = 0
         
+        let current = Date()
         guard let originalNextTimeReview = Date.stringToDate(word.nextTimeReview) else {fatalError("字串轉換Date失敗！")}
         // 重設下次複習日期
-        word.nextTimeReview = Date.dateToString( originalNextTimeReview.addingTimeInterval( TimeInterval(reviewDayGap[reviewCount].day) ) )
+        word.nextTimeReview = Date.dateToString( current.addingTimeInterval( TimeInterval(reviewDayGap[reviewCount].day) ) )
         word.lastTimeReview = Date.dateToString(Date())
         
         // 變false不顯示答案

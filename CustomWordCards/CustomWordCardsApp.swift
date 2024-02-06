@@ -99,11 +99,11 @@ extension Word {
     static let reviewDayGap = [1, 2, 4, 7, 15, 30, 90, 180]
     
     // 目前#Predicate內不支持使用Date()，因此改用日期字串比較
-    static func sameAsCurrentPredicate() -> Predicate<Word> {
+    static func lessOrSameAsCurrentPredicate() -> Predicate<Word> {
         let currentDate = Date.dateToString(Date())
         
         return #Predicate<Word> { word in
-            word.nextTimeReview == currentDate
+            word.nextTimeReview <= currentDate
         }
     }
 }
