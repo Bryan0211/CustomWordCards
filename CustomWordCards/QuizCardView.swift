@@ -138,7 +138,6 @@ struct QuizCardView: View {
         reviewCount = 0
         
         let current = Date()
-        guard let originalNextTimeReview = Date.stringToDate(word.nextTimeReview) else {fatalError("字串轉換Date失敗！")}
         // 重設下次複習日期
         word.nextTimeReview = Date.dateToString( current.addingTimeInterval( TimeInterval(reviewDayGap[reviewCount].day) ) )
         word.lastTimeReview = Date.dateToString(Date())
