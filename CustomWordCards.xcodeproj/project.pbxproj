@@ -7,30 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		932AAC8B2BCE75D100B9D9DB /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932AAC872BCE75D100B9D9DB /* extension.swift */; };
+		932AAC8C2BCE75D100B9D9DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932AAC882BCE75D100B9D9DB /* ContentView.swift */; };
+		932AAC8D2BCE75D100B9D9DB /* CustomWordCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932AAC892BCE75D100B9D9DB /* CustomWordCardsApp.swift */; };
+		932AAC8E2BCE75D100B9D9DB /* DailyWordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932AAC8A2BCE75D100B9D9DB /* DailyWordsView.swift */; };
+		932AAC922BCE760200B9D9DB /* NewWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932AAC8F2BCE760200B9D9DB /* NewWordView.swift */; };
+		932AAC932BCE760200B9D9DB /* QuizCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932AAC902BCE760200B9D9DB /* QuizCardView.swift */; };
+		932AAC942BCE760200B9D9DB /* WordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932AAC912BCE760200B9D9DB /* WordModel.swift */; };
 		933A952B2BCE5D7400D19864 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933A952A2BCE5D7400D19864 /* Item.swift */; };
 		933A952D2BCE5D7500D19864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 933A952C2BCE5D7500D19864 /* Assets.xcassets */; };
 		933A95302BCE5D7500D19864 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 933A952F2BCE5D7500D19864 /* Preview Assets.xcassets */; };
-		933A95372BCE5DFC00D19864 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933A95362BCE5DFC00D19864 /* ContentView.swift */; };
-		933A953B2BCE5E1A00D19864 /* DailyWordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933A95382BCE5E1A00D19864 /* DailyWordsView.swift */; };
-		933A953C2BCE5E1A00D19864 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933A95392BCE5E1A00D19864 /* extension.swift */; };
-		933A953D2BCE5E1A00D19864 /* CustomWordCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933A953A2BCE5E1A00D19864 /* CustomWordCardsApp.swift */; };
-		933A953F2BCE5E2500D19864 /* NewWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933A953E2BCE5E2500D19864 /* NewWordView.swift */; };
-		933A95412BCE5E2A00D19864 /* QuizCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933A95402BCE5E2A00D19864 /* QuizCardView.swift */; };
-		933A95432BCE5E3000D19864 /* WordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933A95422BCE5E3000D19864 /* WordModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		932AAC872BCE75D100B9D9DB /* extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		932AAC882BCE75D100B9D9DB /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		932AAC892BCE75D100B9D9DB /* CustomWordCardsApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomWordCardsApp.swift; sourceTree = "<group>"; };
+		932AAC8A2BCE75D100B9D9DB /* DailyWordsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyWordsView.swift; sourceTree = "<group>"; };
+		932AAC8F2BCE760200B9D9DB /* NewWordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewWordView.swift; sourceTree = "<group>"; };
+		932AAC902BCE760200B9D9DB /* QuizCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizCardView.swift; sourceTree = "<group>"; };
+		932AAC912BCE760200B9D9DB /* WordModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordModel.swift; sourceTree = "<group>"; };
 		933A95232BCE5D7400D19864 /* CustomWordCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomWordCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		933A952A2BCE5D7400D19864 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		933A952C2BCE5D7500D19864 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		933A952F2BCE5D7500D19864 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		933A95362BCE5DFC00D19864 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../../../CustomWordCards/CustomWordCards/ContentView.swift; sourceTree = "<group>"; };
-		933A95382BCE5E1A00D19864 /* DailyWordsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DailyWordsView.swift; path = ../../../../../CustomWordCards/CustomWordCards/DailyWordsView.swift; sourceTree = "<group>"; };
-		933A95392BCE5E1A00D19864 /* extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = extension.swift; path = ../../../../../CustomWordCards/CustomWordCards/extension.swift; sourceTree = "<group>"; };
-		933A953A2BCE5E1A00D19864 /* CustomWordCardsApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomWordCardsApp.swift; path = ../../../../../CustomWordCards/CustomWordCards/CustomWordCardsApp.swift; sourceTree = "<group>"; };
-		933A953E2BCE5E2500D19864 /* NewWordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewWordView.swift; path = ../../../../../CustomWordCards/CustomWordCards/NewWordView.swift; sourceTree = "<group>"; };
-		933A95402BCE5E2A00D19864 /* QuizCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuizCardView.swift; path = ../../../../../CustomWordCards/CustomWordCards/QuizCardView.swift; sourceTree = "<group>"; };
-		933A95422BCE5E3000D19864 /* WordModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WordModel.swift; path = ../../../../../CustomWordCards/CustomWordCards/WordModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,14 +63,14 @@
 		933A95252BCE5D7400D19864 /* CustomWordCards */ = {
 			isa = PBXGroup;
 			children = (
-				933A95392BCE5E1A00D19864 /* extension.swift */,
-				933A953A2BCE5E1A00D19864 /* CustomWordCardsApp.swift */,
-				933A95362BCE5DFC00D19864 /* ContentView.swift */,
-				933A953E2BCE5E2500D19864 /* NewWordView.swift */,
-				933A95402BCE5E2A00D19864 /* QuizCardView.swift */,
-				933A95382BCE5E1A00D19864 /* DailyWordsView.swift */,
+				932AAC872BCE75D100B9D9DB /* extension.swift */,
+				932AAC892BCE75D100B9D9DB /* CustomWordCardsApp.swift */,
+				932AAC882BCE75D100B9D9DB /* ContentView.swift */,
+				932AAC8F2BCE760200B9D9DB /* NewWordView.swift */,
+				932AAC902BCE760200B9D9DB /* QuizCardView.swift */,
+				932AAC8A2BCE75D100B9D9DB /* DailyWordsView.swift */,
 				933A952A2BCE5D7400D19864 /* Item.swift */,
-				933A95422BCE5E3000D19864 /* WordModel.swift */,
+				932AAC912BCE760200B9D9DB /* WordModel.swift */,
 				933A952C2BCE5D7500D19864 /* Assets.xcassets */,
 				933A952E2BCE5D7500D19864 /* Preview Content */,
 			);
@@ -155,14 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				932AAC8D2BCE75D100B9D9DB /* CustomWordCardsApp.swift in Sources */,
+				932AAC922BCE760200B9D9DB /* NewWordView.swift in Sources */,
 				933A952B2BCE5D7400D19864 /* Item.swift in Sources */,
-				933A953F2BCE5E2500D19864 /* NewWordView.swift in Sources */,
-				933A953D2BCE5E1A00D19864 /* CustomWordCardsApp.swift in Sources */,
-				933A953B2BCE5E1A00D19864 /* DailyWordsView.swift in Sources */,
-				933A95372BCE5DFC00D19864 /* ContentView.swift in Sources */,
-				933A95412BCE5E2A00D19864 /* QuizCardView.swift in Sources */,
-				933A953C2BCE5E1A00D19864 /* extension.swift in Sources */,
-				933A95432BCE5E3000D19864 /* WordModel.swift in Sources */,
+				932AAC8B2BCE75D100B9D9DB /* extension.swift in Sources */,
+				932AAC8E2BCE75D100B9D9DB /* DailyWordsView.swift in Sources */,
+				932AAC932BCE760200B9D9DB /* QuizCardView.swift in Sources */,
+				932AAC8C2BCE75D100B9D9DB /* ContentView.swift in Sources */,
+				932AAC942BCE760200B9D9DB /* WordModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
